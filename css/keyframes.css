@@ -1,0 +1,105 @@
+@keyframes rainbow {
+    0% {
+        color: rgb(255, 0, 0)
+    }
+    20% {
+        color: rgb(0, 255, 13)
+    }
+    40% {
+        color: rgb(251, 255, 0)
+    }
+    60% {
+        color: rgb(0, 26, 255)
+    }
+    80% {
+        color: rgb(228, 83, 0)
+    }
+    100% {
+        color: rgb(247, 0, 255)
+    }
+}
+
+@keyframes buttonRainbow {
+    0% {
+        box-shadow: rgb(255, 0, 0) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+    20% {
+        box-shadow: rgb(0, 255, 13) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+    40% {
+        box-shadow: rgb(251, 255, 0) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+    60% {
+        box-shadow: rgb(0, 26, 255) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+    80% {
+        box-shadow: rgb(228, 83, 0) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+    100% {
+        box-shadow: rgb(247, 0, 255) 4px 4px 0 0, #000 4px 4px 0 1px;
+    }
+}
+
+@keyframes borderRainbow {
+    0% {
+        border: 1px solid rgb(250, 0, 0)
+    }
+    20% {
+        border: 1px solid rgb(0, 255, 13)
+    }
+    40% {
+        border: 1px solid rgb(251, 255, 0)
+    }
+    60% {
+        border: 1px solid rgb(0, 26, 255)
+    }
+    80% {
+        border: 1px solid rgb(228, 83, 0)
+    }
+    100% {
+        border: 1px solid rgb(247, 0, 255)
+    }
+}
+
+@keyframes borderColorRainbow {
+    0% {
+        border-color: rgb(250, 0, 0)
+    }
+    20% {
+        border-color: rgb(0, 255, 13)
+    }
+    40% {
+        border-color: rgb(251, 255, 0)
+    }
+    60% {
+        border-color: rgb(0, 26, 255)
+    }
+    80% {
+        border-color: rgb(228, 83, 0)
+    }
+    100% {
+        border-color: rgb(247, 0, 255)
+    }
+}
+
+/* https://codepen.io/Hack_iOS7/pen/bGeOPw */
+@-webkit-keyframes spin {
+  	0%{ -webkit-transform: rotate(0deg); tranform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(360deg); tranform: rotate(360deg);}
+}
+
+@keyframes spin {
+	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinreverse {
+  	0%{ -webkit-transform: rotate(0deg); tranform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(-360deg); tranform: rotate(-360deg);}
+}
+
+@keyframes spinreverse {
+	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(-360deg); transform: rotate(-360deg);}
+}
+

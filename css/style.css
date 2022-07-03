@@ -1,0 +1,121 @@
+@import url('keyframes.css');
+html,
+body {
+  font-family: 'Hack';
+  color: white;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #181818;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.upload {
+  margin-left: 60%;
+}
+
+.check-item {
+  margin: 10px;
+}
+
+.container{
+  background-color: #181818;
+}
+
+.content-container {
+  background-color: #181818;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  align-items: end;
+  text-align: center;
+  animation: borderRainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+a span {
+  color: #fff;
+}
+
+.title span {
+  font-size: 50px;
+  animation: rainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.upload-frame {
+  z-index: 1;
+  text-align: center;
+}
+
+.boton {
+  appearance: button;
+  background-color: #181818;
+  background-image: none;
+  animation: buttonRainbow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border: 1px solid #2b2a2a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 38px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 200px;
+}
+.delete {
+  appearance: button;
+  background-color: #181818;
+  background-image: none;
+  animation: buttonRainbow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border: 1px solid #2b2a2a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 50px 0 0 0 ;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
