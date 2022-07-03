@@ -48,6 +48,6 @@ This is a small project to set up a local cloud to transfer files through your d
 7. Open your browser and type **your IP adress/my_drive**
 
 ## That's all!
-[img/gif.gif]
+![img/gif.gif](img/gif.gif)
 
 
